@@ -1,6 +1,6 @@
 describe("Form submission", () => {
   it("submits a job", () => {
-    cy.visit("http://localhost:3000/");
+    cy.visit("https://dinosv1.herokuapp.com/");
 
     cy.get("#job-listings li").should("have.length.gte", 4);
 
